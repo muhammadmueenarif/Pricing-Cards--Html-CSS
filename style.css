@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    background: aqua;
+}
+
+#cardone {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 220px;
+    height: 350px;
+    background: red;
+    margin: 10px;
+}
+
+#cardtwo {
+    width: 220px;
+    height: 350px;
+    background: blue;
+    margin: 10px;
+}
+
+#cardthree {
+    width: 220px;
+    height: 350px;
+    background: palevioletred;
+    margin: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    width: 90%;
+}
+
+h3 {
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+ul {
+    margin-left: 20%;
+}
+
+li {
+    color: white;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 20%;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+    font-weight: bold;
+}
